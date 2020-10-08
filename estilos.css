@@ -4,20 +4,20 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url('fondo.jpg');
+body{
+    background-image: url("https://getmovil.com/wp-content/uploads/2018/07/Honor-Note-10-fondos-de-pantalla-1-1.jpg");
 }
 
 .form-register {
     width: 400px;
-    background: #24303c;
+    background: #D3AFF0;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
-    box-shadow: 7px 13px 37px #000;;
+    box-shadow: 7px 13px 37px #D3AFF0;;
 }
 
 .form-register h4 {
@@ -27,11 +27,11 @@ body {
 
 .controls {
     width: 100%;
-    background: #24303c;
+    background: #C9D5E6;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
+    border: 1px solid #5B72F0;
     font-family: 'calibri';
     font-size: 18px;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .form-register a {
-    color: white;
+    color: #5DB6D9;
     text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ body {
 
 .form-register .botons {
     width: 100%;
-    background: #1f53c5;
+    background: #5BF0C4;
     border: none;
     padding: 12px;
     color: white;

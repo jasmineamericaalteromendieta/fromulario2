@@ -11,8 +11,38 @@
         <h4>Formulario Registro</h4>
         <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
         <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="controls" type="text" name="semestre" id="semestre" placeholder="Ingrese su semestre">
         <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
         <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+    
+    <div>
+        <label for="ciudad">Ciudad:</label>
+        <select name="ciudad">
+            <option value="VE">VERACRUZ</option>
+            <option value="PU">PUEBLA</option>
+            <option value="MX">MEXICO</option>
+            <option value="M">MORELIA</option>
+            <option value="" selected="selected">Selecciona ciudad...</option>
+        </select>
+    </div><br>
+    <div> Especialidad <br>
+        <input type="checkbox" id="programacion" name="especialidad" value="programacion">
+        <label for="deportes">programacion</label><br>
+        <input type="checkbox" id="especialidad" name="especialidad" value="contabilidad">
+        <label for="coches">contabilidad</label><br>
+        <input type="checkbox" id="especialidad" name="especialidad" value="logistica">
+        <label for="musica">logistica</label><br>
+    <br</div>
+    <div>Sexo: <br>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="femenino" name="sexo" value="femenino">
+        <label for="femenino">Femenino</label><br>
+    </div><br>
+    <div>Selecciona: <br>
+        <input type="submit" name="submit" value="Enviar informacion">
+        <input type="reset" name="reset" value="Limpiar formulario">
+    </div><br>
     <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
     <input class="botons" type="submit" value="Registrar">
     <p><a href="#">¿Ya tengo Cuenta?</a></p>
